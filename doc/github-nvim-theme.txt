@@ -279,6 +279,10 @@ options.module_default {bool}       *github-nvim-theme-options.module_default*
 Specifies the default value of a module that has not been overridden in the
 modules table.
 
+options.set_vim_background {bool}*github-nvim-theme-options.set_vim_background*
+
+Automatically set `vim.opt.background` to the appropriate `'dark'` or `'light'`.
+
 
 options.styles {table}                      *github-nvim-theme-options.styles*
 

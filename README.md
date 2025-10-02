@@ -264,6 +264,7 @@ require('github-theme').setup({
     terminal_colors = true,    -- Set terminal colors (vim.g.terminal_color_*) used in `:terminal`
     dim_inactive = false,      -- Non focused panes set to alternative background
     module_default = true,     -- Default enable value for modules
+    set_vim_background = true, -- Automatically set vim.opt.background to 'light' or 'dark'
     styles = {                 -- Style to be applied to different syntax groups
       comments = 'NONE',       -- Value is any valid attr-list value `:help attr-list`
       functions = 'NONE',

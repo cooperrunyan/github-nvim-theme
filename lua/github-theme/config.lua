@@ -27,6 +27,7 @@ local M = { theme = 'github_dark', has_options = false }
 ---@field inverse? GhTheme.Config.Options.Inverse
 ---@field darken? GhTheme.Config.Options.Darken
 ---@field modules? GhTheme.Config.Options.Modules
+---@field set_vim_background? boolean
 local defaults = {
   compile_file_suffix = '_compiled',
   compile_path = util.join_paths(util.cache_home, 'github-theme'),
@@ -36,6 +37,7 @@ local defaults = {
   terminal_colors = true,
   dim_inactive = false,
   module_default = true,
+  set_vim_background = true,
 
   ---A table of syntax items/groups and their corresponding styles.
   ---@class (exact) GhTheme.Config.Options.Styles
